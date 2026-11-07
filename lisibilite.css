@@ -1,0 +1,73 @@
+/* Typographie lisible, disponible immédiatement sans téléchargement de police. */
+:root{--font:'Segoe UI',Arial,sans-serif;--display:'Segoe UI',Arial,sans-serif;--muted:#59534c}
+body{font-size:16px;font-weight:400;line-height:1.6;color:#20201d}
+:root body .main-nav{font-size:15px;font-weight:600;color:#393731;gap:28px}
+:root body .notice{height:40px}
+:root body .notice-group span{font-size:13px;letter-spacing:.015em}
+:root body .brand-name{font-size:12px}:root body .brand-name b{font-size:15px}
+:root body main p:not(.about-lead){font-size:16px;line-height:1.8;color:#49443e}
+:root body main .services p,:root body main .promo-materials p{color:#f2e8df}
+:root body .eyebrow{font-size:12px;letter-spacing:.08em;font-weight:800;color:#8f3708}
+:root body .eyebrow-light{color:#ffd0ab}
+:root body :is(.button,.cart-button,.text-link,.filter,.product-meta button,.admin-open){font-size:14px;font-weight:700;line-height:1.45}
+:root body .button{min-height:48px;padding:12px 20px}
+:root body .filter{padding:11px 14px;color:#4c443b}
+:root body .filter.active{color:#9e3900}
+:root body :is(.search-box input,.catalog-controls select,.modal input,.modal textarea,.modal select,.admin-form-grid input,.admin-form-grid textarea,.admin-form-grid select){font-size:16px;line-height:1.5;min-height:44px}
+:root body .search-box input{width:180px}
+:root body :is(.product-category,.product-badge){font-size:12px;letter-spacing:.03em}
+:root body .product-category{color:#69503d}
+:root body .product-title-row h3{font-size:19px;line-height:1.35}
+:root body .price{font-size:17px;line-height:1.5}
+:root body :is(.price small,.catalog-bottom,.trust-strip small,.hero-proof,.promo-demo,.promo-counter,.home-product small,.slider-caption small){font-size:13px;line-height:1.6}
+:root body :is(.catalog-bottom,.hero-proof,.trust-strip small,.promo-demo,.promo-counter){color:#5e554b}
+:root body .trust-strip b{font-size:14px}
+:root body .trust-strip .trust-note{font-size:12px;color:#5e554b}
+:root body .trust-strip{flex-wrap:wrap;gap:18px}
+:root body :is(.slider-pause,.promo-buttons button,.promo-tag){font-size:12px}
+:root body .slider-caption small{color:#ffddc2}
+:root body .home-product h3{font-size:19px;line-height:1.4}
+:root body .home-product strong{font-size:16px}
+:root body .home-page .universe-copy small{font-size:14px;color:#452008}
+:root body :is(.modal label,.admin-form-grid label,.admin-feedback,.admin-toolbar,.admin-row-main span,.admin-row-main small,.photo-picker-title,.photo-picker-footer small){font-size:14px;line-height:1.6}
+:root body .admin-row-main b{font-size:16px}
+:root body :is(.admin-panel-heading p,.photo-preview span,.admin-empty,.admin-logout,.admin-row-actions button,.admin-cancel,.admin-tab){font-size:14px}
+:root body .contact-panel .whatsapp-link+small{font-size:22px;color:#23211e}
+:root body .contact-panel .contact-email{font-size:16px;overflow-wrap:anywhere;color:#34312b}
+:root body .contact-panel .contact-hours{font-size:16px;color:#49443e}
+:root body :is(.footer-social,.footer-phone){font-size:14px}
+:root body footer{font-size:13px;line-height:1.65}
+:root body .about-breadcrumb{font-size:14px;color:#5e5247}
+:root body .about-location small{font-size:12px;color:#ffd2ae}
+:root body .about-location div>span{font-size:14px;color:#f4e9df}
+:root body .about-domain h3{font-size:22px;line-height:1.4}
+:root body .about-service-image>span{font-size:12px}
+:root body .about-service-footer>span{font-size:14px;color:#564536}
+:root body .about-service-footer strong{font-size:19px;color:#9c3500}
+:root body .about-service-footer small{font-size:13px;color:#564536}
+:root body .about-practical dt{font-size:12px;color:#853805}
+:root body .about-practical dd{font-size:16px;color:#342b23}
+:root body main .about-visit p{color:#45230e}
+:root body .about-phone{font-size:18px}
+@media(max-width:1000px){:root body .main-nav{gap:18px;font-size:14px}:root body .about-service-footer{flex-direction:column;align-items:flex-start;gap:16px}:root body .catalog-controls{flex-wrap:wrap;gap:12px}}
+@media(max-width:700px){:root body .main-nav{font-size:16px}:root body .brand-name{font-size:11px}:root body .brand-name b{font-size:13px}:root body .home-cart{font-size:12px}:root body .notice-group span{font-size:12px}:root body .hero-proof{font-size:13px}:root body .hero-actions{flex-wrap:wrap;gap:18px}:root body .about-domain h3{font-size:19px}:root body .about-domain{gap:10px}:root body .about-domain p{font-size:15px}:root body .about-service-footer .button{width:100%}:root body .search-box input{width:100%;min-width:0}:root body .catalog-bottom{flex-direction:column;gap:12px}:root body .trust-strip>div{min-width:0;flex-basis:calc(50% - 12px)}:root body .contact-panel .contact-email{font-size:15px}}
+@media(max-width:600px){:root body .product-grid{grid-template-columns:1fr}:root body .product-meta button{padding:11px 16px}:root body .catalog-controls{width:100%}:root body .search-box{flex:1;min-width:0}}
+@media(max-width:380px){:root body .home-products{grid-template-columns:1fr}:root body .brand{gap:6px}:root body .brand-logo{width:36px;height:36px}:root body .header-actions{gap:5px}}
+
+/* Navigation stable : même graisse avant et pendant le survol. */
+:root body .main-nav a,
+:root body .main-nav a:hover,
+:root body .main-nav a.active { font-weight:700; }
+:root body .main-nav a { transition:color 120ms ease; touch-action:manipulation; }
+:root body .main-nav a::after { transition:transform 120ms ease; }
+/* Transition native courte ; le clic reste un lien HTML ordinaire. */
+@media (prefers-reduced-motion:no-preference) {
+ @view-transition { navigation:auto; }
+ .site-header { view-transition-name:site-header; }
+ .notice { view-transition-name:site-notice; }
+ ::view-transition-old(root),::view-transition-new(root) { animation-duration:120ms; }
+ ::view-transition-group(site-header),::view-transition-group(site-notice) { animation-duration:120ms; }
+}
+@media (prefers-reduced-motion:reduce) {
+ :root body .main-nav a,:root body .main-nav a::after { transition:none; }
+}
